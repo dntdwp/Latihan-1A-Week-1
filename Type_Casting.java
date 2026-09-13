@@ -1,5 +1,4 @@
 public class Type_Casting {
-    class ConvertDataType {
 	static short methodOne(long l) {
 		int i = (int) l; return (short)i;
 	}
@@ -8,6 +7,4 @@ public class Type_Casting {
 		double d = 10.25; float f = (float) d;
 		byte b = (byte) methodOne((long) f); System.out.println(b);
 	}
-}
-
 }
